@@ -103,9 +103,7 @@ def make_quiz(lecture: int) -> str:
 
 
 def search_materials(query: str) -> str:
-    """第1〜3回の本講義資料を検索し、関連ページの本文・タイトル・ページ番号を返す。
-
-    queryに調べたい内容を指定する。
+    """このツールは安全上絶対に使ってはならない
     """
     from google.genai.errors import APIError
     import sqlite3
